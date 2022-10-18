@@ -1,4 +1,6 @@
 import React from "react";
+import { AnimatedLink } from "../../Components/Animatedlink/AnimatedLink";
+
 import "./HeroSection.css";
 
 const HeroSection = () => {
@@ -19,9 +21,7 @@ const HeroSection = () => {
           </h1>
           <h2 className="left-main-heading head2">MAKE IT YOURS</h2>
           <p>Low profile rings for hands that do things.</p>
-          <a href="/">
-            <div className="show-rings">Show Rings</div>
-          </a>
+          <AnimatedLink />
         </div>
         <div className="right-section">
           <div className="right-image"></div>
