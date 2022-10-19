@@ -1,9 +1,7 @@
-@import url(//db.onlinewebfonts.com/c/a533e6fa2fb2d762dab84b03684d49f3?family=Louize+Display+trial);
-
 .heroSection {
   display: flex;
   position: relative;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
 }
 
@@ -63,7 +61,7 @@
 
 .left-section .head2 {
   margin-left: auto;
-  width: 90%;
+  width: 92%;
 }
 
 .right-section .right-image {
@@ -76,14 +74,13 @@
   background-image: url("https://frankdarling.com/_next/image/?url=%2Fassets%2Fimages%2Finfluencers%2Fsmall-parker-headshot.jpeg&w=3840&q=75");
 }
 
-@media screen and (max-width: 320px) {
-  .left-section {
-    width: 90%;
+@media all and (max-width: 768px) {
+  .right-section {
+    display: none;
   }
 
-  .left-section .left-main-heading {
-    font-size: 8vw !important;
-    line-height: 1 !important;
+  .left-section {
+    width: 90%;
   }
 
   .left-section p {
@@ -91,7 +88,16 @@
     font-size: 1.125rem;
   }
 
-  .right-section {
-    flex: 0;
+  .left-section .left-main-heading {
+    font-size: 8vw !important;
+    line-height: 1 !important;
+  }
+
+  .left-section {
+    width: 92%;
+  }
+
+  .left-section .left-main-heading {
+    font-size: 8vw;
   }
 }
