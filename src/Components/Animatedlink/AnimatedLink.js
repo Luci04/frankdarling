@@ -4,7 +4,7 @@ import "./AnimatedLink.css";
 export const AnimatedLink = () => {
   return (
     <div className="link-container">
-      <div className="show-rings">Show Rings</div>
+      <div className="show-rings text-sm">Show Rings</div>
     </div>
   );
 };

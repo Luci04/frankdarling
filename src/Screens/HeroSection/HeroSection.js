@@ -14,12 +14,12 @@ const HeroSection = () => {
       </video>
       <div className="overlay-section">
         <div className="left-section">
-          <h1 className="left-main-heading">
+          <h1 className="left-main-heading text-sm">
             FIND THE
             <br />
             PERFECT RING
           </h1>
-          <h2 className="left-main-heading head2">MAKE IT YOURS</h2>
+          <h2 className="left-main-heading text-sm head2">MAKE IT YOURS</h2>
           <p>Low profile rings for hands that do things.</p>
           <AnimatedLink />
         </div>

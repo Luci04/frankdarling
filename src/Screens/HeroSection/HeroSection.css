@@ -1,3 +1,5 @@
+@import url(//db.onlinewebfonts.com/c/a533e6fa2fb2d762dab84b03684d49f3?family=Louize+Display+trial);
+
 .heroSection {
   display: flex;
   position: relative;
@@ -30,6 +32,7 @@
   justify-content: center;
   height: 100%;
   width: 50%;
+  padding-bottom: 3rem;
 }
 
 .right-section {
@@ -37,6 +40,10 @@
   justify-content: center;
   align-items: center;
   width: 33.3%;
+}
+
+.left-section h1 {
+  font-family: "Louize Display trial";
 }
 
 .left-section .left-main-heading {
@@ -48,18 +55,20 @@
 }
 
 .left-section p {
+  font-size: 18px;
   margin-top: 2.5rem;
   margin-bottom: 1.5rem;
   color: white;
 }
 
 .left-section .head2 {
-  margin-left: 50px;
+  margin-left: auto;
+  width: 90%;
 }
 
 .right-section .right-image {
   display: flex;
-  height: 500px;
+  height: 90vh;
   width: 100%;
   background-size: contain;
   background-position: center center;
@@ -68,6 +77,20 @@
 }
 
 @media screen and (max-width: 320px) {
+  .left-section {
+    width: 90%;
+  }
+
+  .left-section .left-main-heading {
+    font-size: 8vw !important;
+    line-height: 1 !important;
+  }
+
+  .left-section p {
+    text-align: center;
+    font-size: 1.125rem;
+  }
+
   .right-section {
     flex: 0;
   }
