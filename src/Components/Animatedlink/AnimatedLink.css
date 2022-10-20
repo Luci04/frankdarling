@@ -1,11 +1,13 @@
 .link-container .show-rings {
-  font-size: 18px;
+  font-family: myFirstFont;
+  font-size: 0.875rem;
   cursor: pointer;
   width: max-content;
   overflow: hidden;
   position: relative;
   text-decoration: none;
   line-height: 1.625;
+  letter-spacing: 0.025em;
   color: white;
   text-transform: uppercase;
   flex: 1;
@@ -31,6 +33,13 @@
 @media all and (max-width: 768px) {
   .link-container .show-rings {
     margin: 0 auto;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .link-container .show-rings {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 }
 

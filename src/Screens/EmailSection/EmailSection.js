@@ -10,10 +10,10 @@ const EmailSchema = Yup.object({
 });
 
 const EmailSection = () => {
-  const [isSubmitted, setIsSubmitted] = useState(false);
+  // const [isSubmitted, setIsSubmitted] = useState(false);
 
   const handleSubmit = ({ email }) => {
-    setIsSubmitted(true);
+    // setIsSubmitted(true);
   };
 
   return (
@@ -37,8 +37,6 @@ const EmailSection = () => {
             onSubmit={handleSubmit}
           >
             {({ errors, values, touched, handleChange, handleBlur }) => {
-              console.log(errors, values, touched);
-
               return (
                 <Form>
                   <input

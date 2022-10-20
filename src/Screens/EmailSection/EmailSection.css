@@ -70,6 +70,7 @@
 }
 
 .email-container form .helper-message {
+  font-family: myFirstFont;
   margin-top: 0.75rem;
   font-size: 0.75rem;
 }
@@ -80,6 +81,7 @@
 }
 
 .text-right {
+  font-family: myFirstFont;
   text-align: right;
   color: #161280;
 }
@@ -114,5 +116,12 @@
   .email-container form input::placeholder {
     font-size: 1.125rem;
     line-height: 1.25rem;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .text-right {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }

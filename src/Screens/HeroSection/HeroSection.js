@@ -21,7 +21,7 @@ const HeroSection = () => {
           </h1>
           <h2 className="left-main-heading text-sm head2">MAKE IT YOURS</h2>
           <p>Low profile rings for hands that do things.</p>
-          <AnimatedLink />
+          <AnimatedLink Context={"Shop Rings"} />
         </div>
         <div className="right-section">
           <div className="right-image"></div>
