@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 @media all and (max-width: 320px) {
   .text-sm {
     font-size: 0.875rem !important;

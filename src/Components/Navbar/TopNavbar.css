@@ -1,0 +1,86 @@
+.nav-container {
+  background-color: white;
+  z-index: 100;
+  display: flex;
+  top: 0px;
+  position: sticky;
+  font-family: myFirstFont;
+  padding: 0 1rem;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+  width: 100%;
+  border: 1px solid #1c1794;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+
+.side-bar-btn {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.side-bar-btn img {
+  height: 2rem;
+}
+
+.side-bar-btn svg {
+  width: 32px;
+  height: 32px;
+  color: #1c1794;
+}
+
+.main-heading {
+  height: 100%;
+  cursor: pointer;
+  height: 1.75rem;
+}
+
+.main-heading a img {
+  height: 100%;
+}
+
+.dropdowm-section {
+  display: flex;
+  height: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  justify-items: center;
+  align-items: center;
+}
+
+.btn-section {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-section div {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  width: 1.75rem;
+}
+
+.btn-section div:last-child {
+  margin-left: 1.75rem;
+}
+
+@media all and (max-width: 1024px) {
+  .nav-container {
+    height: 4rem;
+  }
+  .dropdowm-section {
+    display: none;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .side-bar-btn {
+    display: none;
+  }
+}

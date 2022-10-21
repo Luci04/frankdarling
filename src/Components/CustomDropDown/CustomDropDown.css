@@ -1,0 +1,38 @@
+.dropdown-container {
+  color: #1c1794;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  cursor: pointer;
+  margin-left: 2rem;
+}
+
+.dropdown-container:first-child {
+  margin-left: 0;
+}
+
+.dropdown-container img {
+  margin-left: 0.5rem;
+  width: 0.75rem;
+  margin-top: 8px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+.face-right {
+  -moz-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.face-down {
+  -moz-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
