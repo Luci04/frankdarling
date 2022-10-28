@@ -1,3 +1,23 @@
+.d-grid {
+  display: grid !important;
+}
+
+.h-6 {
+  height: 1.5rem;
+}
+
+.w-6 {
+  width: 1.5rem;
+}
+
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+}
+
 .nav-container {
   background-color: white;
   z-index: 100;
@@ -36,7 +56,7 @@
 .main-heading {
   height: 100%;
   cursor: pointer;
-  height: 1.75rem;
+  height: 1rem;
 }
 
 .main-heading a img {
@@ -60,27 +80,187 @@
 }
 
 .btn-section div {
-  width: 24px;
-  height: 24px;
   display: flex;
-  width: 1.75rem;
+}
+
+.btn-section div svg {
+  height: 28px;
+  width: 28px;
 }
 
 .btn-section div:last-child {
-  margin-left: 1.75rem;
+  margin-left: 1.5rem;
+}
+
+.vis-none {
+  visibility: hidden;
+}
+
+.vis-100 {
+  visibility: visible;
+}
+
+.options-container {
+  display: flex;
+  background-color: #fff;
+  z-index: 50;
+  font-family: myFirstFont;
+  padding: 1.5rem;
+  position: fixed;
+  align-items: flex-start;
+  width: 100%;
+  border: 1px solid #1c1794;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  transition: all 0.6s ease-in;
+  -webkit-transition: all 0.6s ease-in;
+  -moz-transition: all 0.6s ease-in;
+  -ms-transition: all 0.6s ease-in;
+  -o-transition: all 0.6s ease-in;
+}
+
+.options-container .options-section:first-child {
+  border-left: none;
+  padding-left: 0;
+  padding-right: 1rem;
+}
+
+.options-container .options-section:last-child {
+  padding-left: 1rem;
+  padding-right: 0;
+}
+
+.remove-padding {
+  padding-left: 0px !important;
+}
+
+.options-section {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  display: flex;
+  border-left: 1px solid #1c1794;
+}
+
+.options-link-container {
+  font-family: "Louize Display trial";
+  font-size: 1rem;
+  width: max-content;
+  display: flex;
+  gap: 1rem;
+  margin-left: 1.5rem;
+  flex-direction: column;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.options-link-container a {
+  display: flex;
+  height: 24px;
+  color: #1c1794;
+  text-decoration: none;
+}
+
+.options-link-container a span {
+  padding-right: 0.75rem;
+}
+
+/* .options-link-container a span svg {
+  height: 24px;
+  width: 24px;
+} */
+
+.option-first .link-container .show-rings {
+  font-size: 14px;
+}
+
+.option-first {
+  width: max-content;
+}
+
+.option-first h3 {
+  color: #1c1794;
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+
+@media all and (min-width: 640px) {
+  .nav-container {
+    padding: 0 1rem;
+    height: 4rem;
+  }
+
+  .btn-section div svg {
+    height: 32px;
+    width: 32px;
+  }
+
+  .main-heading {
+    height: 1.75rem;
+    margin: 0 16px;
+  }
+}
+
+@media all and (max-width: 640px) {
+  .btn-section div svg {
+    height: 24px;
+    width: 24px;
+  }
+
+  .btn-section div:last-child {
+    margin-left: 0.75rem;
+  }
+
+  .nav-container {
+    padding: 0 1.5rem;
+  }
+
+  .side-bar-btn img {
+    height: 24px;
+    width: 24px;
+  }
+
+  .side-bar-btn svg {
+    width: 24px;
+    height: 24px;
+    color: #1c1794;
+  }
 }
 
 @media all and (max-width: 1024px) {
   .nav-container {
     height: 4rem;
   }
+
+  .main-heading {
+    margin: 0;
+  }
+
   .dropdowm-section {
     display: none;
   }
 }
 
 @media all and (min-width: 1024px) {
+  .options-link-container {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .side-bar-btn {
     display: none;
+  }
+  .nav-container {
+    padding: 0 1rem;
+    height: 5rem;
+  }
+  .main-heading {
+    margin: 0;
+  }
+  .options-link-container a span {
+    padding-right: 0.375rem;
+  }
+}
+
+@media all and (min-width: 1280px) {
+  .options-link-container {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }

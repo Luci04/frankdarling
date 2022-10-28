@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./EmailSection.css";
 import * as Yup from "yup";
 import { Formik, Form } from "formik";
