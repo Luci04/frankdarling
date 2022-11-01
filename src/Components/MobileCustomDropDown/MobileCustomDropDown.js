@@ -1,10 +1,19 @@
 import React, { useEffect } from "react";
-import "./CustomDropDown.css";
+import OptionExpand from "../OptionExpand/OptionExpand";
+import "./MobileCustomDropDown.css";
 
-const CustomDropDown = ({ title, currState, setCurrState, drop, level }) => {
+const MobileCustomDropDown = ({
+  title,
+  currState,
+  setCurrState,
+  drop,
+  level,
+  option,
+  mobile = false,
+}) => {
   return (
     <div
-      className="dropdown-container"
+      className="mobile-dropdown-container"
       onClick={() => {
         if (currState === level) {
           setCurrState(null);
@@ -26,4 +35,4 @@ const CustomDropDown = ({ title, currState, setCurrState, drop, level }) => {
   );
 };
 
-export default CustomDropDown;
+export default MobileCustomDropDown;
