@@ -11,7 +11,6 @@ const CustomDropDown = ({ title, currState, setCurrState, drop, level }) => {
         } else {
           setCurrState(level);
         }
-        console.log(level);
       }}
     >
       {title}

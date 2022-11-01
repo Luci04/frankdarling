@@ -1,0 +1,152 @@
+.footer-container {
+  padding-left: 8.3334vw;
+  padding-right: 8.3334vw;
+  padding-bottom: 6rem;
+  padding-top: 3.5rem;
+  background-color: #1c1794;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-box-section {
+  display: flex;
+  justify-content: center;
+}
+
+.lets-chat-container {
+  display: flex;
+  margin-left: auto;
+}
+
+.lets-chat h3 {
+  font-family: "myFirstFont";
+  font-size: 1.125rem;
+  font-weight: bold;
+  color: white;
+}
+
+.lets-chat .book-us {
+  display: flex;
+  margin-top: 20px;
+  padding: 8px;
+  border: 1px solid white;
+}
+
+.lets-chat .book-us span {
+  display: block;
+  width: max-content;
+  font-size: 1.125rem;
+  color: white;
+  margin-right: 6rem;
+}
+
+.avail-box {
+  border-top: 1px solid #fff;
+  margin-top: 6rem;
+  padding-top: 1.25rem;
+  font-size: 1.125rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.brand-box {
+  margin-top: 3.5rem;
+}
+
+.time-right {
+  display: flex;
+}
+
+.time-right div {
+  display: flex;
+  margin-left: 2rem;
+}
+
+.time-right .time-right-icon a {
+  margin-left: 0.75rem;
+}
+
+.brand-box {
+  display: flex;
+}
+
+@media all and (max-width: 1024px) {
+  .lets-chat-container {
+    order: 1;
+  }
+
+  .footer-container {
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
+  .footer-box {
+    padding: 1rem 0;
+    border-top: 1px solid white;
+    order: 2;
+  }
+
+  .footer-box-section {
+    flex-direction: column;
+  }
+
+  .lets-chat .book-us span {
+    font-size: 16px;
+    margin-right: 0;
+  }
+
+  .lets-chat-container {
+    padding-bottom: 4rem;
+    width: 100%;
+  }
+  .lets-chat-container .lets-chat {
+    width: 100%;
+  }
+
+  .lets-chat .book-us {
+    justify-content: space-between;
+  }
+
+  .brand-box img {
+    width: 100%;
+  }
+
+  .footer-box .title {
+    font-size: 14px;
+  }
+
+  .avail-box {
+    margin-top: 0;
+    font-size: 16px;
+    flex-direction: column;
+  }
+
+  .time-left {
+    line-height: 1rem;
+  }
+
+  .time-right {
+    flex-direction: column;
+  }
+
+  .time-right div {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+
+  .time-right-icon {
+    padding-top: 2rem;
+  }
+
+  .time-right .time-right-icon a {
+    margin-left: 0.75rem;
+  }
+
+  .time-right .time-right-icon a:first-child {
+    margin-left: 0;
+  }
+  .lets-chat h3 {
+    font-size: 16px;
+  }
+}

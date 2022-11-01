@@ -253,5 +253,42 @@
     "Wedding": [],
     "Etiquette": [],
     "Help": []
-  }
+  },
+  "FooterOption": [
+    {
+      "title": "About us",
+      "DrowDownOptions": [
+        " Our Story",
+        "Sustainable & Ethical Materials",
+        "Design Your Dream Ring",
+        "Try At Home",
+        "Education",
+        "Terms of Use",
+        "Lab Grown Diamonds"
+      ]
+    },
+
+    {
+      "title": "CARING FOR YOU, DARLING",
+      "DrowDownOptions": [
+        "Free Shipping",
+        "Free Returns",
+        "Free Custom Design",
+        "Lifetime Warranty",
+        "Price Match Guarantee",
+        "Flexible Payment Options",
+        "Complementary Care Plan",
+        "FAQs"
+      ]
+    },
+    {
+      "title": "SHOP",
+      "DrowDownOptions": [
+        "Engagement Rings",
+        "Diamonds",
+        "Wedding Bands",
+        "Try At Home"
+      ]
+    }
+  ]
 }
